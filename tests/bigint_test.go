@@ -20,12 +20,13 @@ package tests
 import (
 	"context"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func TestSimpleBigInt(t *testing.T) {

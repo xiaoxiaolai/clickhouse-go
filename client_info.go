@@ -19,10 +19,11 @@ package clickhouse
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"runtime"
 	"sort"
 	"strings"
+
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 )
 
 const ClientName = "clickhouse-go"

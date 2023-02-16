@@ -2,9 +2,9 @@ package clickhouse_api
 
 import (
 	"crypto/tls"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests"
 )
 
 const TestSet string = "examples_clickhouse_api"

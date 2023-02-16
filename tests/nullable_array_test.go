@@ -20,15 +20,16 @@ package tests
 import (
 	"context"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"net"
 	"testing"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+
 	"github.com/google/uuid"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func TestNullableArray(t *testing.T) {

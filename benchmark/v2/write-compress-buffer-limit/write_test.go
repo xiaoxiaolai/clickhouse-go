@@ -20,7 +20,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/xiaoxiaolai/clickhouse-go"
 	"log"
 	"runtime"
 	"testing"

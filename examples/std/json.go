@@ -2,9 +2,9 @@ package std
 
 import (
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/tests/std"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests/std"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	"github.com/xiaoxiaolai/clickhouse-go/tests/std"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests/std"
 )
 
 type Releases struct {

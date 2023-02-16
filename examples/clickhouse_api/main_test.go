@@ -20,13 +20,14 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/stretchr/testify/require"
 	"math/rand"
 	"os"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/require"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests"
 )
 
 func TestMain(m *testing.M) {

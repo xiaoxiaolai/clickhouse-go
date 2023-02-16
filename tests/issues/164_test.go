@@ -20,13 +20,14 @@ package issues
 import (
 	"context"
 	"database/sql"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	clickhouse_std_tests "github.com/ClickHouse/clickhouse-go/v2/tests/std"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"strconv"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests"
+	clickhouse_std_tests "github.com/xiaoxiaolai/clickhouse-go/tests/std"
 )
 
 func TestIssue164(t *testing.T) {

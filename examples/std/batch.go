@@ -18,11 +18,11 @@
 package std
 
 import (
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/xiaoxiaolai/clickhouse-go"
 	"time"
 
-	_ "github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/google/uuid"
+	_ "github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func BatchInsert() error {

@@ -22,14 +22,15 @@ import (
 	"crypto/tls"
 	"database/sql"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"math/rand"
 	"net/url"
 	"os"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/xiaoxiaolai/clickhouse-go"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests"
 )
 
 const testSet string = "std"

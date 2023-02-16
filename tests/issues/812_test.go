@@ -2,10 +2,11 @@ package issues
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests"
 )
 
 func Test812(t *testing.T) {

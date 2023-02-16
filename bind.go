@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
 )
 
 func Named(name string, value interface{}) driver.NamedValue {
@@ -291,13 +291,18 @@ func format(tz *time.Location, scale TimeUnit, v interface{}) (string, error) {
 			values = append(values, fmt.Sprintf("%s, %s", name, val))
 		}
 		return "map(" + strings.Join(values, ", ") + ")", nil
+	case reflect.Pointer:
+		if v.IsNil() {
+			return format(tz, scale, nil)
+		}
+		return format(tz, scale, v.Elem().Interface())
 
 	}
 	return fmt.Sprint(v), nil
 }
 
 func join[E any](tz *time.Location, scale TimeUnit, values []E) (string, error) {
-	items := make([]string, len(values), len(values))
+	items := make([]string, len(values))
 	for i := range values {
 		val, err := format(tz, scale, values[i])
 		if err != nil {

@@ -20,13 +20,14 @@ package tests
 import (
 	"context"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"math/rand"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+
 	"github.com/paulmach/orb"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func TestGeoMultiPolygon(t *testing.T) {

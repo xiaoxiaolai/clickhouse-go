@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 )
 
 type ServerVersion = proto.ServerHandshake

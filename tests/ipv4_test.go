@@ -19,13 +19,14 @@ package tests
 
 import (
 	"context"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/stretchr/testify/require"
 	"net"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/column"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func TestSimpleIPv4(t *testing.T) {

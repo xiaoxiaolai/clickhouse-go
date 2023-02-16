@@ -18,8 +18,8 @@
 package clickhouse
 
 import (
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/pkg/errors"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
 	"regexp"
 	"time"
 )

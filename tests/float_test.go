@@ -4,12 +4,13 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"math/rand"
 	"testing"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func TestSimpleFloat(t *testing.T) {

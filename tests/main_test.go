@@ -21,13 +21,14 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"math/rand"
 	"os"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/xiaoxiaolai/clickhouse-go"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
 )
 
 const testSet string = "native"

@@ -21,14 +21,15 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/stretchr/testify/require"
 	"net"
 	"strconv"
 	"testing"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/stretchr/testify/require"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func TestCustomDialContext(t *testing.T) {

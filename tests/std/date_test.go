@@ -20,9 +20,9 @@ package std
 import (
 	"database/sql"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	clickhouse_tests "github.com/ClickHouse/clickhouse-go/v2/tests"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	clickhouse_tests "github.com/xiaoxiaolai/clickhouse-go/tests"
 	"strconv"
 	"testing"
 	"time"

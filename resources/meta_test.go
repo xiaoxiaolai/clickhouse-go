@@ -18,9 +18,9 @@
 package resources
 
 import (
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 	"testing"
 )
 

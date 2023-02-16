@@ -20,8 +20,8 @@ package clickhouse_api
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/paulmach/orb"
+	"github.com/xiaoxiaolai/clickhouse-go"
 )
 
 func GeoInsertRead() error {

@@ -1,4 +1,4 @@
-# ClickHouse [![run-tests](https://github.com/ClickHouse/clickhouse-go/actions/workflows/run-tests.yml/badge.svg?branch=v2)](https://github.com/ClickHouse/clickhouse-go/actions/workflows/run-tests.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/ClickHouse/clickhouse-go/v2.svg)](https://pkg.go.dev/github.com/ClickHouse/clickhouse-go/v2)
+# ClickHouse [![run-tests](https://github.com/ClickHouse/clickhouse-go/actions/workflows/run-tests.yml/badge.svg?branch=v2)](https://github.com/ClickHouse/clickhouse-go/actions/workflows/run-tests.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/xiaoxiaolai/clickhouse-go.svg)](https://pkg.go.dev/github.com/xiaoxiaolai/clickhouse-go)
 
 Golang SQL database client for [ClickHouse](https://clickhouse.com/).
 
@@ -284,7 +284,7 @@ Usage examples for [native API](examples/clickhouse_api/client_info.go) and [dat
 ## Install
 
 ```sh
-go get -u github.com/ClickHouse/clickhouse-go/v2
+go get -u github.com/xiaoxiaolai/clickhouse-go
 ```
 
 ## Examples

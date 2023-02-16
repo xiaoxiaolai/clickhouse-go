@@ -3,12 +3,13 @@ package tests
 import (
 	"context"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"runtime"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
 )
 
 func TestClientInfo(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/column"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 )
 
 var splitInsertRe = regexp.MustCompile(`(?i)\sVALUES\s*\(`)

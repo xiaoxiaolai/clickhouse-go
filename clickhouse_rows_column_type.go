@@ -20,8 +20,8 @@ package clickhouse
 import (
 	"reflect"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/column"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
 )
 
 type columnType struct {

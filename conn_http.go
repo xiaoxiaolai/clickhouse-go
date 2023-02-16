@@ -25,7 +25,7 @@ import (
 	"context"
 	"database/sql/driver"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2/resources"
+	"github.com/xiaoxiaolai/clickhouse-go/resources"
 	"io"
 	"io/ioutil"
 	"net"
@@ -36,9 +36,9 @@ import (
 
 	"github.com/ClickHouse/ch-go/compress"
 	chproto "github.com/ClickHouse/ch-go/proto"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 	"github.com/andybalholm/brotli"
 	"github.com/pkg/errors"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 )
 
 const (

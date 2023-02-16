@@ -4,16 +4,17 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/google/uuid"
-	"github.com/shopspring/decimal"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"log"
 	"net"
 	"testing"
 	"time"
+
+	"github.com/google/uuid"
+	"github.com/shopspring/decimal"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/xiaoxiaolai/clickhouse-go"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
 )
 
 type Releases struct {
@@ -2456,13 +2457,13 @@ func TestMultipleJsonRowsWithNil(t *testing.T) {
 		for k := range myMap {
 			newMap[k] = myMap[k]
 		}
-	
+
 		return newMap
 	}
 
 	type Login struct {
-		Username string `json:"username"`
-		Attachment      map[string]interface{}
+		Username   string `json:"username"`
+		Attachment map[string]interface{}
 	}
 
 	myAttachment := map[string]interface{}{

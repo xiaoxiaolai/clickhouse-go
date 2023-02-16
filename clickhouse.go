@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/contributors"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/column"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/xiaoxiaolai/clickhouse-go/contributors"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/column"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/driver"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 	_ "time/tzdata"
 )
 

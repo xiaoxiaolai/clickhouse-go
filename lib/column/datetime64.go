@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/timezone"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/timezone"
 )
 
 var (

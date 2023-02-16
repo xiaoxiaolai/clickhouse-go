@@ -20,7 +20,7 @@ package clickhouse
 import (
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go/v2/lib/proto"
+	"github.com/xiaoxiaolai/clickhouse-go/lib/proto"
 )
 
 type Log struct {
